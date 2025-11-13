@@ -1,12 +1,13 @@
-## EX 11 : IMPLEMENTATION OF ELLIPTIC CURVE CRYPTOGRAPHY (ECC)
-## Name : Ayisha Rinsi K
-## Register No: 212223040022
-## AIM:
+# EX 11 : IMPLEMENTATION OF ELLIPTIC CURVE CRYPTOGRAPHY (ECC)
+## Name : Tanessha Kannan
+## Register No: 212223040225
+
+### AIM:
 
 To implement the Elliptic Curve Cryptography (ECC) algorithm for basic point addition and scalar multiplication on an elliptic curve over a finite field.
 
 
-## ALGORITHM:
+### ALGORITHM:
 1.	Start the program.
 2.	Select the parameters of the elliptic curve:
 •	Choose a prime number p (field size).
@@ -27,7 +28,7 @@ y2 = x3 + ax + b modp
 7.	The shared secret is now established.
 8.	End the program.
 
-## PROGRAM:
+### PROGRAM:
 ```
 #include <stdio.h>
 typedef struct {
@@ -117,9 +118,8 @@ int main() {
     return 0;
 }
 ```
-## OUTPUT:
+### OUTPUT:
 <img width="904" height="470" alt="image" src="https://github.com/user-attachments/assets/4d3ffb4d-49c3-467e-bb2d-dbfea6fbd60d" />
 
-## RESULT:
-
+### RESULT:
 The ECC program successfully demonstrates point addition and scalar multiplication on an elliptic curve over a finite field, and the simulation has been executed and verified successfully.
